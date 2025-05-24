@@ -1,4 +1,4 @@
-const startDate = new Date("2023-05-24T00:00:00"); // Заміни на свою дату
+const startDate = new Date("2023-05-24T00:00:00");
 
 function updateTimer() {
   const now = new Date();
@@ -10,7 +10,7 @@ function updateTimer() {
   const seconds = now.getSeconds();
 
   document.getElementById("timer").textContent =
-    `${days} días ${hours} horas ${minutes} minutos ${seconds < 10 ? '0' : ''}${seconds} segundos`;
+    `${days} днів ${hours} годин ${minutes} хвилин ${seconds < 10 ? '0' : ''}${seconds} секунд`;
 }
 
 setInterval(updateTimer, 1000);
