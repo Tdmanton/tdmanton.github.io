@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: #fff0f5;
+  font-family: 'Courier New', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Love__You {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 400px;
+  text-align: center;
+  color: #5C4033;
+  overflow: auto;
+}
+
+.Love__You p {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+
+.counter {
+  font-weight: bold;
+  color: #D63384;
+}
+
+.tree-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
